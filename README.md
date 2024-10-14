@@ -33,49 +33,56 @@ The **Smart LED** project enables control of LED lights via the **WLED App** and
 
 3. **Connect the hardware**:
 
-- **Connect the LED strip to the D1 Mini as follows:
-- **DIN (Data in) of the LED strip to D4 (GPIO2) of the D1 Mini.
-- **Power the LED strip using a suitable power supply (usually 5V or 12V).
-- **Connect the ground of the LED strip, power supply, and D1 Mini together.
+* Connect the LED strip to the D1 Mini as follows:
+* DIN (Data in) of the LED strip to D4 (GPIO2) of the D1 Mini.
+* Power the LED strip using a suitable power supply (usually 5V or 12V).
+* Connect the ground of the LED strip, power supply, and D1 Mini together.
+* 
 4. **Configure WLED**:
 
 After flashing the WLED firmware and powering the D1 Mini, connect to the D1 Mini's Wi-Fi network and configure it via the web interface.
 Set up your home Wi-Fi and choose LED settings such as the number of LEDs in the strip.
-Hardware Setup
-D1 Mini Pinout:
 
-The D1 Mini (ESP8266) should have the following connections to the LED strip:
-GPIO2 (D4) for the LED data pin.
-Power (VCC) and Ground should be connected appropriately.
-Powering the LED Strip:
+
+### Hardware Setup
+
+#### D1 Mini Pinout:
+The **D1 Mini** (ESP8266) should have the following connections to the LED strip:
+  * **GPIO2** (D4) for the LED data pin.
+  * **Power** (VCC) and Ground should be connected appropriately.
+
+#### Powering the LED Strip:
 
 Ensure that your power supply matches the requirements of your LED strip (either 5V or 12V).
 Always connect the ground of the power supply, LED strip, and D1 Mini together.
-Usage
-WLED App:
 
-Download and install the WLED app on your smartphone.
-Once the D1 Mini is connected to your home Wi-Fi, open the app, and it will automatically detect your device.
-Use the app to control the LEDs, change colors, and apply custom lighting effects.
-Web Interface:
+
+### Usage
+#### WLED App:
+
+* Download and install the WLED app on your smartphone.
+* Once the D1 Mini is connected to your home Wi-Fi, open the app, and it will automatically detect your device.
+* Use the app to control the LEDs, change colors, and apply custom lighting effects.
+
+#### Web Interface:
 
 WLED also provides a web-based interface accessible by entering the device's IP address in a web browser. You can configure settings and control the LEDs from there.
-Customization
+
+
+### Customization
 You can customize lighting effects and animations directly from the WLED app or by modifying the WLED source code. This repository includes additional setup instructions for hardware integration and specific configurations for the D1 Mini.
 
-Firmware Updates
+### Firmware Updates
 To update the WLED firmware, follow the WLED documentation for over-the-air (OTA) updates or flash new firmware using the USB connection.
 
-Contributing
+### Contributing
 Feel free to submit pull requests or open issues if you find bugs or have suggestions for additional features.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-arduino
-Code kopieren
-
+```arduino
 This markdown file provides a clear and structured README for your **Smart-LED** project. Let me know if you need any further modifications!
-
+```
 
 
