@@ -2,21 +2,21 @@
 The Smart LED project enables control of LED lights via the WLED App and is powered by a D1 Mini microcontroller (ESP8266). This repository includes the firmware and setup instructions to control and automate LED lighting using Wi-Fi through the WLED app.
 
 ## Features
-* WLED App Integration: Control LEDs through the WLED app for Android and iOS.
+* WLED App Integration:Control LEDs through the WLED app for Android and iOS.
 * D1 Mini (ESP8266): Wi-Fi enabled microcontroller for smart lighting control.
 * Custom lighting effects: Create and apply various LED effects and animations.
 * Power management: Efficient control to optimize power consumption.
 * Easy setup: Minimal wiring and configuration needed with the D1 Mini.
 ## Getting Started
-Prerequisites
-D1 Mini (ESP8266) microcontroller
-LED strip (WS2812B or similar)
-Power supply for the LED strip (ensure it matches the voltage of your LED strip)
-WLED App (available for Android and iOS)
-USB cable for programming the D1 Mini
-Arduino IDE or PlatformIO (for uploading the firmware)
-Installation
-Clone the repository:
+### Prerequisites
+* D1 Mini (ESP8266) microcontroller
+* LED strip (WS2812B or similar)
+* Power supply for the LED strip (ensure it matches the voltage of your LED strip)
+* WLED App (available for Android and iOS)
+* USB cable for programming the D1 Mini
+* Arduino IDE or PlatformIO (for uploading the firmware)
+### Installation
+* Clone the repository:
 
 bash
 Code kopieren
@@ -25,7 +25,7 @@ cd Smart-LED
 Install the WLED firmware: You will need to flash the D1 Mini with the WLED firmware. You can do this by following the official WLED installation guide:
 WLED Installation Guide.
 
-Connect the hardware:
+* Connect the hardware:
 
 Connect the LED strip to the D1 Mini as follows:
 DIN (Data in) of the LED strip to D4 (GPIO2) of the D1 Mini.
