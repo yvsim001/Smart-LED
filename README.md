@@ -1,22 +1,34 @@
 # Smart-LED
-The Smart LED project enables control of LED lights via the WLED App and is powered by a D1 Mini microcontroller (ESP8266). This repository includes the firmware and setup instructions to control and automate LED lighting using Wi-Fi through the WLED app.
+
+The **Smart LED** project enables control of LED lights via the **WLED App** and is powered by a **D1 Mini microcontroller (ESP8266)**. This repository includes the firmware and setup instructions to control and automate LED lighting using Wi-Fi through the WLED app.
 
 ## Features
-* WLED App Integration:Control LEDs through the WLED app for Android and iOS.
-* D1 Mini (ESP8266): Wi-Fi enabled microcontroller for smart lighting control.
-* Custom lighting effects: Create and apply various LED effects and animations.
-* Power management: Efficient control to optimize power consumption.
-* Easy setup: Minimal wiring and configuration needed with the D1 Mini.
+
+- **WLED App Integration**: Control LEDs through the WLED app for Android and iOS.
+- **D1 Mini (ESP8266)**: Wi-Fi-enabled microcontroller for smart lighting control.
+- **Custom Lighting Effects**: Create and apply various LED effects and animations.
+- **Power Management**: Efficient control to optimize power consumption.
+- **Easy Setup**: Minimal wiring and configuration needed with the D1 Mini.
+
 ## Getting Started
+
 ### Prerequisites
-* D1 Mini (ESP8266) microcontroller
-* LED strip (WS2812B or similar)
-* Power supply for the LED strip (ensure it matches the voltage of your LED strip)
-* WLED App (available for Android and iOS)
-* USB cable for programming the D1 Mini
-* Arduino IDE or PlatformIO (for uploading the firmware)
+
+- **D1 Mini (ESP8266)** microcontroller
+- **LED strip** (WS2812B or similar)
+- **Power supply** for the LED strip (ensure it matches the voltage of your LED strip)
+- **WLED App** (available for Android and iOS)
+- **USB cable** for programming the D1 Mini
+- **Arduino IDE or PlatformIO** (for uploading the firmware)
+
 ### Installation
-* Clone the repository:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yvsim001/Smart-LED.git
+   cd Smart-LED
+   ```
+
 
 bash
 Code kopieren
