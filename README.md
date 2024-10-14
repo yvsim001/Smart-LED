@@ -29,21 +29,15 @@ The **Smart LED** project enables control of LED lights via the **WLED App** and
    cd Smart-LED
    ```
 
+2. **Install the WLED firmware**: You will need to flash the D1 Mini with the WLED firmware. You can do this by following the official WLED installation guide: WLED Installation Guide.
 
-bash
-Code kopieren
-git clone https://github.com/yvsim001/Smart-LED.git
-cd Smart-LED
-Install the WLED firmware: You will need to flash the D1 Mini with the WLED firmware. You can do this by following the official WLED installation guide:
-WLED Installation Guide.
+3. **Connect the hardware**:
 
-* Connect the hardware:
-
-Connect the LED strip to the D1 Mini as follows:
-DIN (Data in) of the LED strip to D4 (GPIO2) of the D1 Mini.
-Power the LED strip using a suitable power supply (usually 5V or 12V).
-Connect the ground of the LED strip, power supply, and D1 Mini together.
-Configure WLED:
+- **Connect the LED strip to the D1 Mini as follows:
+- **DIN (Data in) of the LED strip to D4 (GPIO2) of the D1 Mini.
+- **Power the LED strip using a suitable power supply (usually 5V or 12V).
+- **Connect the ground of the LED strip, power supply, and D1 Mini together.
+4. **Configure WLED**:
 
 After flashing the WLED firmware and powering the D1 Mini, connect to the D1 Mini's Wi-Fi network and configure it via the web interface.
 Set up your home Wi-Fi and choose LED settings such as the number of LEDs in the strip.
@@ -71,9 +65,17 @@ You can customize lighting effects and animations directly from the WLED app or 
 
 Firmware Updates
 To update the WLED firmware, follow the WLED documentation for over-the-air (OTA) updates or flash new firmware using the USB connection.
+
 Contributing
 Feel free to submit pull requests or open issues if you find bugs or have suggestions for additional features.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+arduino
+Code kopieren
+
+This markdown file provides a clear and structured README for your **Smart-LED** project. Let me know if you need any further modifications!
+
+
 
